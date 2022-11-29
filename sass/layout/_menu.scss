@@ -1,0 +1,22 @@
+.menu-open {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--dominant-text-color);
+    border: none;
+    margin-left: auto;
+    
+
+    &:hover,
+    &:focus {
+        fill: var(--active-color);
+    }
+
+         @media screen and (min-width: 768px) {
+             display: none;
+         }
+
+   
+}
